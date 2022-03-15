@@ -1,6 +1,6 @@
 crochet==1.12.0
 decorator==4.4.1
-django>=3.0.3
+django==3.2.12
 django-background-tasks==1.2.5
 django-compat==1.0.15
 django-crispy-forms==1.8.1
@@ -12,7 +12,7 @@ Jinja2==2.11.3
 json5==0.8.5
 jsonschema==3.2.0
 Pillow==8.1.1
-pipenv==2018.11.26
+pipenv==2022.1.8
 python-dateutil==2.8.1
 python-editor==1.0.4
 python-scrapyd-api==2.1.2
@@ -20,14 +20,14 @@ pytz==2019.3
 pywinpty==0.5.7
 PyYAML>=5.4
 pyzmq==18.1.1
-requests==2.22.0
+requests==2.27.1
 Scrapy==1.8.0
 scrapy-djangoitem==1.1.1
 scrapyd==1.2.1
 SQLAlchemy==1.3.13
-sqlparse==0.3.0
+sqlparse==0.4.2
 tabulate==0.8.6
 Twisted>=20.3.0
-urllib3==1.25.8
+urllib3==1.26.8
 virtualenv==16.7.9
 virtualenv-clone==0.5.3
