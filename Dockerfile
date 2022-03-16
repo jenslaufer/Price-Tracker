@@ -20,4 +20,4 @@ RUN apt-get update && \
     python manage.py makemigrations && \
     python manage.py migrate
 
-ENTRYPOINT ["python", "manage.py", "runserver","0.0.0.0:8000"]
+ENTRYPOINT ["python", "manage.py", "runserver", "0.0.0.0:8000"]
