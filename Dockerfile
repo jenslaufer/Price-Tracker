@@ -14,9 +14,10 @@ COPY manage.py /app
 WORKDIR /app
 
 RUN apt-get update && \
+    apt-get -y upgrade && \
     pip install --upgrade pip && \
     pip install -r requirements.txt && \
     python manage.py makemigrations && \
     python manage.py migrate
 
-ENTRYPOINT ["python", "manage.py", "runserver"]
+ENTRYPOINT ["python", "manage.py", "runserver","0.0.0.0:8000"]
